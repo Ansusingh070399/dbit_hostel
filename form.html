@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1, user-scalable=no"> 
+	<title>DBIT HOSTEL</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:wght@500&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styleform.css"> 
+
+</head>
+<body>
+
+                  <!-- THIS IS FOR NAV BUTTONS !-->
+<nav class="navbar navbar-default navbar-center">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display !-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+              <!-- ADD BUTTON LINK !-->
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="target">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"> HOME <span class="sr-only">(current)</span></a></li>
+        <li><a href="#"></a></li>
+        
+        <li><a href="about.html">ABOUT THIS PROJECT</a></li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CREDIT <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="docs/ansu.pdf" target="_blank">ANSU SINGH</a></li>
+          </ul>
+        </li>
+      </ul>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container-flex">
+  <div class="applicatioon-form">
+    <h1>HOSTEL UPDATE FORM</h1>
+    <h2></h2>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+      <section id="address-one">
+        <div class="row">
+                <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+                	<p class="card"> FILL YOUR APPLICATION DETAILS </p>
+                    <form>
+                        <div class="row">
+                          <div class="form-group-inline">
+                            <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+                              <label for="name">Full Name</label>
+                               <input type="text" class="form-control" id="name" placeholder="Your Name as per your Aadhar/Voter Id" required="true">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">  
+                          <div class="form-group-inline">
+                           <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 form-distance">
+                             <label for="address">Address</label>
+                             <input type="text" class="form-control" id="address" placeholder="DBIT Bangalore, kumbalagodu" required="true">
+                          </div>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                          <div class="form-group-inline">
+                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                              <label for="college_id">College Id No.</label>
+                               <input type="text" class="form-control" id="college_id" placeholder="Registerd Id in college" required="true">
+                            </div>
+                          </div>
+                          <div class="form-group-inline">
+                           <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 form-distance">
+                             <label for="city">City</label>
+                             <input type="mail" class="form-control" id="city" placeholder="Native Place">
+                          </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="form-group-inline">
+                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                              <label for="pin-code">Postal Code</label>
+                               <input type="tel" class="form-control" id="pin-code" placeholder="Pin Code" maxlength="6">
+                            </div>
+                          </div>
+                          <div class="form-group-inline">
+                           <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 form-distance">
+                             <label for="type">Type</label>
+                                <select name="state" id="state" class="form-control">
+                                  <option value="Student">Student</option>
+                                  <option value="Hostel-Staff">Hostel Staff</option>
+                                  <option value="Hostel-Security">Hostel Security</option>
+                                  <option value="Mess-Staff">Mess Staff</option>
+                                </select>
+                          </div>
+                          </div>
+                        </div>
+                        
+                        <div class="row">
+                          <div class="form-group-inline">
+                            <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12">
+                              <label for="tel">Phone Number</label>
+                               <input type="tel" class="form-control" id="tel" placeholder="Phone Number" maxlength="10" required="true">
+                            </div>
+                          </div>  
+                          <div class="form-group-inline">
+                           <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 form-distance">
+                             <label for="email">Email</label>
+                             <input type="mail" class="form-control" id="email" placeholder="hostel@dbit.com">
+                          </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="form-group-inline">
+                            <div class="col-md-4 col-lg-4 col-xs-4 col-sm-4">
+                              <label for="educate">Education Qualification</label>
+                               <select name="educate" id="educate" class="form-control">
+                                  <option value="BE-1st-Year">1st Year BE</option>
+                                  <option value="BE-2nd-Year">2nd Year BE</option>
+                                  <option value="BE-3rd-Year">3rd Year BE</option>
+                                  <option value="BE-4th-Year">4th Year BE</option>
+                                  <option value="MBA-1st-Year">1st Year MBA</option>
+                                  <option value="MBA-2nd-Year">2nd Year MBA</option>
+                                  <option value="10th-pass">10th pass(staff)</option>
+                                  <option value="12th-pass">12th pass(staff)</option>
+                                </select>
+                            </div>
+                          </div>  
+                          <div class="form-group-inline">
+                           <div class="col-md-4 col-lg-4 col-xs-4 col-sm-4 form-distance">
+                             <label for="room-no">Room No.</label>
+                              <input type="text" class="form-control" id="room-no" maxlength="5" placeholder="Room Number followed by Block Name" required="true">
+                          </div>
+                          </div>
+                          <div class="form-group-inline">
+                           <div class="col-md-4 col-lg-4 col-xs-4 col-sm-4 form-distance">
+                             <label for="dob">Date of Birth</label>
+                             <input type="date" class="form-control" id="dob" >
+                          </div>
+                          </div>
+                        </div>
+                         <div class="row">  
+                          <div class="form-group-inline">
+                           <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 form-distance">
+                             <label for="note">Note</label>
+                             <input type="text" class="form-control" id="note" placeholder="Any Special Note (if required)" >
+                          </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                           <div class="form-group-inline">
+                            <div class="col-md-3 col-lg-3 col-xs-3 col-sm-3 form-distance">
+                             <label for="idcard">Upload Aadhar/Voter Card</label>
+                             <input type="file" class="form-control" id="idcard" required="true">
+                            </div>
+                          </div>
+                          <div class="form-group-inline">
+                            <div class="col-md-3 col-lg-3 col-xs-3 col-sm-3 form-distance">
+                             <label for="photo">Upload Your Photo</label>
+                             <input type="file" class="form-control" id="photo" required="true">
+                            </div>
+                          </div>
+                          <div class="form-group-inline">
+                            <div class="col-md-3 col-lg-3 col-xs-3 col-sm-3 form-distance">
+                             <label for="signature">Upload Your Signature</label>
+                             <input type="file" class="form-control" id="signature" required="true">
+                            </div>
+                          </div>
+                          <div class="form-group-inline">
+                            <div class="col-md-3 col-lg-3 col-xs-3 col-sm-3 form-distance">
+                              <label for="submit"></label>
+                             <input type="submit" class="form-control" id="submit">
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </form>
+                </div>
+              </div>
+            </div>
+      </section>
+    </div>
+</div>
+
+<div class="lastline">
+  <div class="container">
+    <h6><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"> All rights reserved.</span></h6>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+</body>
+</html>
